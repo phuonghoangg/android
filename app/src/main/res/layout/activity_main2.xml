@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96FFE8"
+    android:rotation="radial"
+    android:rotationX="50%"
+    android:rotationY="50%"
+    android:scaleX="#FF99DAFF"
+    android:scaleY="#FF008080"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="138dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="112dp"
+        android:text="Login"
+        app:backgroundTint="#FFF708"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="148dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="112dp"
+        android:text="SIGN UP"
+        app:backgroundTint="#FFF708"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="173dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_circle" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="254dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="316dp"
+        android:text="YOUR BUSSINESS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="345dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="308dp"
+        android:text="We will help you to grow your business using "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="110dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:text="online server"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="167dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="52dp"
+        android:text="HOW WE WORK?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:rotationX="-5"
+        android:text="grown"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
